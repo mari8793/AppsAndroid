@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="com.example.mari.noner.Contacto">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/nonelogo"
+        android:layout_marginLeft="300dp"
+
+        android:id="@+id/imageView2"
+
+        />
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout"
+        android:layout_alignParentTop="true">
+
+
+        <android.support.design.widget.FloatingActionButton
+            app:fabSize="normal"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            app:borderWidth="0dp"
+
+
+            android:src="@drawable/tel"
+
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:id="@+id/tel"
+            android:onClick="Telefono"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/frameLayout" />
+
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            app:fabSize="normal"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            app:borderWidth="0dp"
+
+
+            android:src="@drawable/maps"
+
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:id="@+id/maps"
+            android:onClick="Ubicacion"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/frameLayout" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            app:fabSize="normal"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            app:borderWidth="0dp"
+
+
+            android:src="@drawable/correo"
+
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:id="@+id/correo"
+            android:onClick="Correo"
+            android:layout_marginTop="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            app:fabSize="normal"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            app:borderWidth="0dp"
+
+
+            android:src="@drawable/redes"
+
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:id="@+id/redes"
+            android:onClick="Redes"
+            android:layout_marginTop="350dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/frameLayout"
+            android:layout_marginEnd="13dp"
+           />
+
+        <FrameLayout
+            android:name="com.example.mari.fragments.Telefono"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/telefono"
+            tools:layout="@layout/fragment_telefono"
+
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentEnd="true" />
+
+
+        <FrameLayout
+            android:name="com.example.mari.fragments.Ubicacion"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/Ubicacion"
+            tools:layout="@layout/fragment_ubicacion"
+
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentEnd="true" />
+        <FrameLayout
+            android:name="com.example.mari.fragments.Correo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/correoo"
+            tools:layout="@layout/fragment_correo"
+
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentEnd="true" />
+        <FrameLayout
+            android:name="com.example.mari.fragments.Redes"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/logo2"
+            tools:layout="@layout/fragment_redes"
+
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentEnd="true" />
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

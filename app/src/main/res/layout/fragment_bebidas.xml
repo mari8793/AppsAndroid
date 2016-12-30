@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.mari.noner.Bebidas">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/nonelogo"
+
+            android:id="@+id/imageView2"
+
+            />
+    <FrameLayout
+        android:layout_height="49dp"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:elevation="4dp"
+        android:backgroundTint="@color/colorAccent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vino Tinto"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:id="@+id/Spag" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_height="256dp"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="70dp"
+        android:elevation="4dp"
+        android:backgroundTint="@color/colorPrimaryLight">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="157dp"
+            app:srcCompat="@drawable/vino"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="170dp"
+            android:text="@string/Vino"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"/>
+
+    </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="49dp"
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_marginTop="325dp"
+            android:layout_marginLeft="70dp"
+            android:elevation="4dp"
+            android:backgroundTint="@color/colorAccent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menú"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:background="#fff"
+            android:layout_marginLeft="70dp"
+            android:elevation="4dp"
+            android:layout_marginTop="380dp"
+            android:backgroundTint="@color/colorPrimaryLight">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="416dp"
+
+                app:srcCompat="@drawable/beb"
+                />
+
+
+
+        </FrameLayout>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">None</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nosotros">Restaurante None nació a principio del año 2010, teniendo como fundadora a la Chef internacional Mariangeles
+                            Percastre Rivera.\n\n
+
+                            None es un restaurante Italiano, lleno de sabores únicos.\n\n
+                           Nuestra atención y calidad en el servicio nos ha caracterizado durante este tiempo para llegar a ser el mejor
+                           restaurante de México, siendo el único en conseguir una Estrella Michelin.</string>
+
+    <string name="PastaBolo">Spaghetti con nuestra salsa especial de la casa $250.00</string>
+
+    <string name="PastaAlfredo">El favorito de la casa $300.00</string>
+    <string name="Vino">Para acompañar tu comida un exquisito Vino Tinto</string>
+
+    <string name="ubicacion">Col. Arboledas, calle 5 de mayo. \n\n
+                             C.P 42080. \n\n
+                           </string>
+
+
+</resources>

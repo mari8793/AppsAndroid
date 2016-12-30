@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.mari.noner.Redes">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/nonelogo"
+
+        android:layout_marginLeft="270dp"
+        android:id="@+id/imageView2"
+
+        />
+    <FrameLayout
+        android:layout_height="256dp"
+        android:layout_width="256dp"
+        android:background="#fff"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:elevation="4dp"
+        android:backgroundTint="@color/colorPrimaryLight">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/f"
+            android:id="@+id/imageView3"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/t"
+            android:id="@+id/imageView4"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="120dp"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_height="49dp"
+        android:layout_width="256dp"
+        android:background="#fff"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:elevation="4dp"
+        android:backgroundTint="@color/colorAccent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REDES SOCIALES"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            android:id="@+id/tituloRedes" />
+    </FrameLayout>
+
+</FrameLayout>
